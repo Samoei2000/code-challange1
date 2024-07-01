@@ -1,4 +1,8 @@
-let marks =30;
+const prompt = require('prompt-sync')();
+
+// Get user input for marks
+const marks = parseInt(prompt('Enter the marks: '));
+
 if (marks >79){
     console.log("A");
 }else if (marks >= 60 && marks <=79){
