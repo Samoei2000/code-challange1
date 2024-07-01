@@ -11,29 +11,7 @@ if (marks >79){
     console.log("E");
 }
 
-function calculateDemeritpoints(){
-  //prompt the user to input speed
-  let speed=prompt("enter speed of the car")
-  speed=(speed,90);
 
-  const speedLimit=70;
-  let demeritPoints=0;
-  //conditions
-if(speed<speedlimit) {
-    console.log("Ok")
-
-  } else{
-    //calculate demerit points
-demeritpoints=Math.floor((speed-speedLimit)/5)
-console.log(`points: ${demeritPoints}`);
-
-if(demeritPoints> 12){
-    console.log("license suspended")
-    
-    calculateDemeritpoints()
-}
- }
-  }
 
   
   //netSalaryCalculator
